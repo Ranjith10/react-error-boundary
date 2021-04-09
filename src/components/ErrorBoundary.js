@@ -23,7 +23,7 @@ class ErrorBoundary extends Component {
                     <h2>Something went wrong</h2>
                     <h3>Please refresh the page </h3>
                     <details>
-                        {this.state.error && this.state.error.toString()}
+                        {this.state.error.toString()}
                         <br/>
                         {this.state.errorInfo.componentStack}
                     </details>   
